@@ -13,3 +13,6 @@ Use `dotnet build -c "Release"` command for building the project (or it can also
 
 ## Run project
 Use `dotnet docker-dotnet-exercise.dll` command to launch the application. Make sure that the command is executed from the folder containing the resulting .DLL file.
+
+## Access API
+The application has only one API called 'WeatherForecast'. Once the application is running, it can be accessed via a GET request to `http://localhost:5000/WeatherForecast`. By default, the application may be available on the port 5000 but it is possible to specify a different port via `--urls` argument. For example: `dotnet docker-dotnet-exercise.dll --urls http://localhost:7000`.
