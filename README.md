@@ -16,3 +16,5 @@ Use `dotnet docker-dotnet-exercise.dll` command to launch the application. Make 
 
 ## Access API
 The application has only one API called 'WeatherForecast'. Once the application is running, it can be accessed via a GET request to `http://localhost:5000/WeatherForecast`. By default, the application may be available on the port 5000 but it is possible to specify a different port via `--urls` argument. For example: `dotnet docker-dotnet-exercise.dll --urls http://localhost:7000`.
+
+If the application has been started successfully, a request to the mentioned API must return a JSON object with 5 weather records in it.
