@@ -1,0 +1,6 @@
+﻿services:
+  docker-dotnet-exercise:
+    image: docker-dotnet-exercise
+    build: ./docker-dotnet-exercise
+    ports:
+      - 5678:5678
